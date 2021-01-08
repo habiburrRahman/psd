@@ -1,0 +1,206 @@
+*{margin: 0px;padding:0px}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+/* *******************************
+Universal code go here
+font-family: 'Ubuntu', sans-serif;
+********************************** */
+.container{
+    width:1140px;
+    margin: auto;
+    display: flow-root;
+}
+a{
+    text-decoration: none;
+}
+/* ***************** 
+header section go here 
+******************** */
+.header{
+   width: 100%;
+   padding: 50px 0px;
+   display: flow-root;
+}
+.nav-bar{
+    width: 100%;
+   float: left;
+}
+.logo{
+    width:25%;
+    float: left;
+}
+.menu{
+    width:75%;
+    float: right;
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left:60px;
+}
+.menu ul li a{
+    text-transform:uppercase;
+    color: #c0c0c0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+
+}
+.menu ul li a:hover{
+    color:black
+}
+/* ****************************************
+ first post section go here
+******************************************* */
+.first-post-section{
+    width: 100%;
+    display: flow-root;
+}
+.first-post-image{
+    width: 100%;
+}
+.first-post-description{
+    padding: 70px;
+}
+.first-post-description h5{
+    color: #c0c0c0;
+    font-family: 'Ubuntu',sans-serif;
+    margin-top: 20px;
+    font-weight:400;
+}
+.first-post-description h1{
+    color:#b0b0b0;
+    font-family: 'Playfair Display',serif;
+    margin: 20px 0;
+}
+.first-post-description p{
+    font-family: 'Playfair Display',serif;
+    font-weight: 400;
+    color:#626262;
+    line-height: 20px;
+    font-size: 18px;
+}
+/* ****************************************
+ double post section go here
+******************************************* */
+.double-post-section{
+    width: 100%;
+    display: flow-root;
+}
+.double-post{
+    padding: 70px;
+    display: flow-root;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+.left h5,.right h5{
+    color: #c0c0c0;
+    font-family: 'Ubuntu',sans-serif;
+    margin-top: 20px;  
+    font-weight: 400;
+}
+.left h1,.right h1{
+    color:#b0b0b0;
+    font-family: 'Playfair Display',serif;
+    margin: 20px 0;
+}
+.left P,.right p{
+    font-family: 'Playfair Display',serif;
+    color:#626262;
+    line-height: 20px;
+    font-size: 18px;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+.equal{
+    margin-right: 25px;
+}
+.equal1{
+    margin-left: 25px;
+}
+/* ****************************************
+input section go here
+******************************************* */
+.input-section{
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flow-root;
+    margin: 30px 0;
+}
+.input{
+    width: 100%;
+    padding: 70px 0px;
+    text-align: center;
+}
+.input h1{
+    margin-bottom: 20px;
+    font-family: 'Playfair Display',serif;
+    color: #464646; 
+}
+.input input{
+    width: 31%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #626262;
+    padding: 10px 0;
+    }
+.input input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display',serif;  
+}
+.input input:focus{
+    outline: none;
+    border-bottom-color: black;
+}
+/* Button section go here */
+.button-section{
+    width: 100%;
+}
+button{
+    width: 12%;
+    display: block;
+    margin: 50px auto;
+    border: 1px solid #626262;
+    padding: 15px;
+    font-size: 20px;
+    color: #626262;
+    font-family: 'Playfair Display',serif;
+    background-color: white;
+}
+/* Footer section go here */
+footer{
+    width: 100%;
+    background-color: #F0F0F0;
+    display: flow-root;
+}
+.footer-section{  
+    display: flow-root;
+    padding: 40px 70px;
+}
+.left-foter{
+    width: 50%;
+    float: left;
+    color: #626262;
+    font-family: 'Playfair Display',serif;  
+    font-size: 18px;
+}
+.right-foter{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.right-foter ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+}
+.right-foter ul li a{
+    color: #626262;
+    font-size: 18px;
+}
+.right-foter ul li a:hover{
+    color: black
+}
